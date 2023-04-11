@@ -41,6 +41,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
   
 ## Çalışmanın Amacı
    Çalışma, Türkiye’de yoksulluğun ve eğitimin birbirleri arasındaki ilişkisini, bu ilişkinin ne tür bir ilişki olduğunu ortaya koymayı ve analiz edebilmeyi konu edinmiştir.
+   
    Yoksulluk ve eğitim üzerine birçok çalışma bulunmaktadır. Bu çalışma, bu konu ile ilgili yayınlanmış makaleleri, kitapları, grafikleri ve diğer verileri de inceleyip analize dahil edebilmeyi hedeflemektedir. Bununla birlikte Türkiye gibi gelişmekte olan ülkeleri ve diğer Avrupa ülkelerini de inceleyip veri setinin ortaya koymuş olduğu eğitimin yoksulluğu azaltmadaki etkin rolünü gösterebilmek ve desteklemektir. Bunun sonucunda konu ile ilgili bulunan veriler ışığında bu ilişkiyi incelemek ve istatistiksel analiz yapabilmeyi amaçlamaktadır.   
 
 
@@ -52,6 +53,7 @@ Yoksulluğa sebep olan birçok faktör mevcuttur. Bunlar arasında ön plana ç�
 Bu bağlamda söz konusu bireylerin yoksulluğun kısır döngüsüne girmelerine engel olma noktasında alınacak tedbirler ve uygulanacak politikalar hayati önem taşımaktadır. Yoksulluğun nesilden nesille bir miras olarak bırakılmamasın tek yolu ise eğitim seviyesinin yükseltilmesinden geçmektedir (süheyla erikli)
 Öte yandan eğitim, insanların ekonomiye ve topluma katılma becerileri kazanmalarına yardımcı olur.Bulguları göz önüne alındığında, eğitim özünde geliri eşit dağıtmak için bir mihenk taşıdır ve yoksullara ekonomik büyümeden daha fazla yararlanma fırsatı sağlar.Bu nedenle eğitim politikaları, örgün ve yaygın eğitime katılımı artırmaya çalışırken, yoksullukla mücadelede önemli bir rol üstlenmeyi hedeflemeli (the evidence)
 Sonuç olarak, yoksulluk ve eğitim birbiriyle ters orantılıdır.(the cause)
+
 Aynı zamanda eğitimden yoksulluğa doğru ters nedensellik olabileceği gibi, yoksulluktan eğitime doğru da eşit derecede nedensellik olabilir. Örneğin, eğitime yapılan yatırım, insanların üretkenliğinin yanı sıra ücretleri veya geliri artırarak yoksulluğu azaltır. Ayrıca eğitim, insanların daha etkin üretim yapma kapasitelerini geliştiren bazı gerekli becerileri edinmelerini sağlar. Öte yandan yoksulluk, öğrencilere sağlanan kaynakları etkileyerek eğitimin kalitesinive eğitime eşit erişimi kısıtlamaktadır(the cause)
 
 
