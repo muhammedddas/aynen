@@ -1,0 +1,173 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  12pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\usepackage{polyglossia}
+\setmainlanguage{turkish}
+\usepackage{booktabs}
+\usepackage{caption}
+\captionsetup[table]{skip=10pt}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Türkiye'de Eğitim ve Yoksulluk ilşkisi},
+  pdfauthor={Muhammed DAŞ},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Türkiye'de Eğitim ve Yoksulluk ilşkisi}
+\author{Muhammed DAŞ\footnote{20080270, \href{https://github.com/muhammedddas/aynen}{Github Repo}}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{giriux15f}{%
+\section{Giriş}\label{giriux15f}}
+
+Tüm Dünya'da olduğu gibi Türkiye'de de yoksulluk başlıca sorunlardandır. Bununla beraber son yıllarda hızla artan yoksulluk ile birlikte hem ulusal hem de uluslararası düzeyde yoksulluğu önlemek amacıyla çeşitli politikalar uygulanmaktadır. Bunların en başında gösterebileceğimiz eğitim politikaları yer almaktadır.(ALPAYDIN (\protect\hyperlink{ref-alpaydin2008turkiye}{2008})) .Bu yüzden proje önerimin araştırma konusu olarak da Türkiye'de eğitim ve yoksulluk arasında ne tür bir ilişki olduğunu incelemeyi seçtim. Proje önerimin veri setini Türkiye İstatistik Kurumu'nun web sitesinden elde ettim. Veri setinde yoksul sayısı ve yoksulluk oranı başlıkları altında Türkiye'de nüfusun eğitim düzeyleri ve okur-yazar olma durumları gibi değişkenler bulunmaktadır. Bununla birlikte yoksulluk riskleri de veri setinde yer almaktadır. Bu veriler 2006-2021 yılları arası incelenmiş olup 50 gözleme dayanmaktadır.
+
+\hypertarget{uxe7alux131ux15fmanux131n-amacux131}{%
+\subsection{Çalışmanın Amacı}\label{uxe7alux131ux15fmanux131n-amacux131}}
+
+Çalışma, Türkiye'de yoksulluğun ve eğitimin birbirleri arasındaki ilişkisini, bu ilişkinin ne tür bir ilişki olduğunu ortaya koymayı ve analiz edebilmeyi konu edinmiştir.
+
+Yoksulluk ve eğitim üzerine birçok çalışma bulunmaktadır. Bu çalışma, bu konu ile ilgili yayınlanmış makaleleri, kitapları, grafikleri ve diğer verileri de inceleyip analize dahil edebilmeyi hedeflemektedir. Bununla birlikte Türkiye gibi gelişmekte olan ülkeleri ve diğer Avrupa ülkelerini de inceleyip veri setinin ortaya koymuş olduğu eğitimin yoksulluğu azaltmadaki etkin rolünü gösterebilmek ve desteklemektir. Bunun sonucunda konu ile ilgili bulunan veriler ışığında bu ilişkiyi incelemek ve istatistiksel analiz yapabilmeyi amaçlamaktadır.
+
+\hypertarget{literatuxfcr}{%
+\subsection{Literatür}\label{literatuxfcr}}
+
+Eğitim ve yoksulluk araındaki ilişkiyi incelemeden önce kısaca tanımlarını yapmamız gerekir.Yoksulluk mutlak yoksulluk ve göreli yoksulluk olarak ikiye ayrılır. Mutlak yoksulluk, insan varlığının devamı için gerekli olan yiyecek, içecek ve barınma gibi en temel ihtiyaçlarının karşılanamaması durumudur. Göreli yoksulluk ise, insanların temel ihtiyaçlarını karşılayabilmesine rağmen kişisel kaynaklarının yetersizliği nedeniyle toplumun genel refah düzeyinin altında kalması durumudur.
+
+Eğitim, her ne kadar görüş birliğine varılan tek bir tanımı olmasa da eğitimi genel olarak, kültürün genç kuşaklara aktarılması ve toplumun varlığını sürdürebilmesi için gerekli sosyal değişimleri yapabilecek yaratıcı kişilerin yetiştirilmesi olarak tanımlamak mümkündür(\protect\hyperlink{ref-ccokgezen2015gelicsmekte}{ÇOKGEZEN ve Erdene, 2015}).
+
+Literatür incelendiğinde eğitimin yoksulluk üzerinde dramatik bir etkiye sahip olduğu görülmektedir(Bilenkisi vd. (\protect\hyperlink{ref-bilenkisi2015impact}{2015}))\\
+Yoksulluğa sebep olan birçok faktör mevcuttur. Bunlar arasında ön plana çıkanlar ise; ekonomik, işsizlik, göç, cinsiyet ve de eğitimdir. Yoksulluk olgusu tüm yönleriyle incelendiğinde, en önemli nedenin eğitimden kaynaklandığı söylenebilir. Bu bağlamda eğitimin ekonomi ve işsizlikle doğrudan ilişkili olduğu ifade edilebilir.
+Bu bağlamda söz konusu bireylerin yoksulluğun kısır döngüsüne girmelerine engel olma noktasında alınacak tedbirler ve uygulanacak politikalar hayati önem taşımaktadır. Yoksulluğun nesilden nesille bir miras olarak bırakılmamasın tek yolu ise eğitim seviyesinin yükseltilmesinden geçmektedir (\protect\hyperlink{ref-ocalguncel}{ÖCAL, t.y.})
+Öte yandan eğitim, insanların ekonomiye ve topluma katılma becerileri kazanmalarına yardımcı olur.Bulguları göz önüne alındığında, eğitim özünde geliri eşit dağıtmak için bir mihenk taşıdır ve yoksullara ekonomik büyümeden daha fazla yararlanma fırsatı sağlar.Bu nedenle eğitim politikaları, örgün ve yaygın eğitime katılımı artırmaya çalışırken, yoksullukla mücadelede önemli bir rol üstlenmeyi hedeflemeli (Bilenkisi vd. (\protect\hyperlink{ref-bilenkisi2015impact}{2015}))
+
+Sonuç olarak, yoksulluk ve eğitim birbiriyle ters orantılıdır.
+Aynı zamanda eğitimden yoksulluğa doğru ters nedensellik olabileceği gibi, yoksulluktan eğitime doğru da eşit derecede nedensellik olabilir. Örneğin, eğitime yapılan yatırım, insanların üretkenliğinin yanı sıra ücretleri veya geliri artırarak yoksulluğu azaltır. Ayrıca eğitim, insanların daha etkin üretim yapma kapasitelerini geliştiren bazı gerekli becerileri edinmelerini sağlar. Öte yandan yoksulluk, öğrencilere sağlanan kaynakları etkileyerek eğitimin kalitesinive eğitime eşit erişimi kısıtlamaktadır(\protect\hyperlink{ref-citak2020causal}{Citak ve Duffy, 2020})
+
+Yoksulluk nedeniyle bireylerin yetersiz eğitim alması bir yandan yoksulluğu devam ettirici bir etki yaratırken; bir diğer yandan bu bireylerin topluma katkılarının da düşük düzeyde kalmasına neden olarak ülkenin kalkınmasını olumsuz yönde etkilemektedir. Bu nedenle yoksullukla mücadelede eğitim konusu sosyal politika alanında ve ekonomik kalkınmada önemli bir unsuru teşkil etmektedir(\protect\hyperlink{ref-erikli2016gencc}{ERİKLİ, 2016})
+
+\newpage
+
+\hypertarget{references}{%
+\section{Kaynakça}\label{references}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-alpaydin2008turkiye}{}}%
+ALPAYDIN, Y. (2008). T{ü}rkiye'de yoksulluk ve e{ğ}itim ili{ş}kileri. \emph{{İ}lem Y{ı}ll{ı}k}, \emph{3}(3), 49-64.
+
+\leavevmode\vadjust pre{\hypertarget{ref-bilenkisi2015impact}{}}%
+Bilenkisi, F., Gungor, M. S. ve Tapsin, G. (2015). The Impact of Household Heads' Education Levels on the Poverty Risk: The Evidence from Turkey. \emph{Educational Sciences: Theory and Practice}, \emph{15}(2), 337-348.
+
+\leavevmode\vadjust pre{\hypertarget{ref-citak2020causal}{}}%
+Citak, F. ve Duffy, P. A. (2020). The causal effect of education on poverty: evidence from Turkey. \emph{Eastern Journal of European Studies}, \emph{11}(2), 251.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ccokgezen2015gelicsmekte}{}}%
+ÇOKGEZEN, M. ve Erdene, O. (2015). Geli{ş}mekte olan {ü}lkelerde yayg{ı}n e{ğ}itimin yoksullu{ğ}u azaltma {ü}zerindeki etkisi. \emph{{Ç}ukurova {Ü}niversitesi {İ}ktisadi ve {İ}dari Bilimler Fak{ü}ltesi Dergisi}, \emph{19}(2), 47-64.
+
+\leavevmode\vadjust pre{\hypertarget{ref-erikli2016gencc}{}}%
+ERİKLİ, S. (2016). Gen{ç} yoksullu{ğ}unun temel belirleyicileri: E{ğ}itim ve d{ü}zg{ü}n i{ş}. \emph{Gazi {Ü}niversitesi {İ}ktisadi ve {İ}dari Bilimler Fak{ü}ltesi Dergisi}, \emph{18}(1), 283-302.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ocalguncel}{}}%
+ÖCAL, Ş. K. (t.y.). G{Ü}NCEL SORUNLAR VE TARTI{Ş}MALAR.
+
+\end{CSLReferences}
+
+\end{document}
