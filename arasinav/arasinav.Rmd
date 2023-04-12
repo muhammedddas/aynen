@@ -32,7 +32,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== NOTLAR ================================= -->
 <!-- ======================================================================= -->
-[^1]: Öğrenci Numarası, [Github Repo](https://github.com/muhammedddas/aynen)
+[^1]: 20080270, [Github Repo](https://github.com/muhammedddas/aynen)
 
 
 
@@ -46,8 +46,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 
 
 ## Literatür 
-    Eğitim ve yoksulluk araındaki ilşkiyi incelemeden önce kısaca tanımlarını yapmamız gerekir.Yoksulluk mutlak yoksulluk ve göreli yoksulluk olarak ikiye ayrılır. Mutlak yoksulluk, insan varlığının devamı için gerekli olan yiyecek, içecek ve barınma gibi en temel ihtiyaçlarının karşılanamaması durumudur. Göreli yoksulluk ise, insanların temel ihtiyaçlarını karşılayabilmesine rağmen kişisel kaynaklarının yetersizliği nedeniyle toplumun genel refah düzeyinin altında kalması durumudur.
-
+    
   
   Eğitim, her ne kadar görüş birliğine varılan tek bir tanımı olmasa da eğitimi genel olarak, kültürün genç kuşaklara aktarılması ve toplumun varlığını sürdürebilmesi için gerekli sosyal değişimleri yapabilecek yaratıcı kişilerin yetiştirilmesi olarak tanımlamak mümkündür[@ccokgezen2015gelicsmekte].
   
