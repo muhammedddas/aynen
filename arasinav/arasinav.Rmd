@@ -46,15 +46,19 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 
 
 ## Literatür 
-    Eğitim ve yoksulluk arasındaki ilişkiyi incelemeden önce kısaca tanımlarını yapmamız gerekir. Yoksulluk mutlak yoksulluk ve göreli yoksulluk olarak ikiye ayrılır. Mutlak yoksulluk, insan varlığının devamı için gerekli olan yiyecek, içecek ve barınma gibi en temel ihtiyaçlarının karşılanamaması durumudur. Göreli yoksulluk ise, insanların temel ihtiyaçlarını karşılayabilmesine rağmen kişisel kaynaklarının yetersizliği nedeniyle toplumun genel refah düzeyinin altında kalması durumudur.
+    Eğitim ve yoksulluk araındaki ilşkiyi incelemeden önce kısaca tanımlarını yapmamız gerekir.Yoksulluk mutlak yoksulluk ve göreli yoksulluk olarak ikiye ayrılır. Mutlak yoksulluk, insan varlığının devamı için gerekli olan yiyecek, içecek ve barınma gibi en temel ihtiyaçlarının karşılanamaması durumudur. Göreli yoksulluk ise, insanların temel ihtiyaçlarını karşılayabilmesine rağmen kişisel kaynaklarının yetersizliği nedeniyle toplumun genel refah düzeyinin altında kalması durumudur.
+  
   Eğitim, her ne kadar görüş birliğine varılan tek bir tanımı olmasa da eğitimi genel olarak, kültürün genç kuşaklara aktarılması ve toplumun varlığını sürdürebilmesi için gerekli sosyal değişimleri yapabilecek yaratıcı kişilerin yetiştirilmesi olarak tanımlamak mümkündür[@ccokgezen2015gelicsmekte].
+  
    Literatür incelendiğinde eğitimin yoksulluk üzerinde dramatik bir etkiye sahip olduğu görülmektedir(@bilenkisi2015impact)     
 Yoksulluğa sebep olan birçok faktör mevcuttur. Bunlar arasında ön plana çıkanlar ise; ekonomik, işsizlik, göç, cinsiyet ve de eğitimdir. Yoksulluk olgusu tüm yönleriyle incelendiğinde, en önemli nedenin eğitimden kaynaklandığı söylenebilir. Bu bağlamda eğitimin ekonomi ve işsizlikle doğrudan ilişkili olduğu ifade edilebilir.
 Bu bağlamda söz konusu bireylerin yoksulluğun kısır döngüsüne girmelerine engel olma noktasında alınacak tedbirler ve uygulanacak politikalar hayati önem taşımaktadır. Yoksulluğun nesilden nesille bir miras olarak bırakılmamasın tek yolu ise eğitim seviyesinin yükseltilmesinden geçmektedir [@ocalguncel]
 Öte yandan eğitim, insanların ekonomiye ve topluma katılma becerileri kazanmalarına yardımcı olur.Bulguları göz önüne alındığında, eğitim özünde geliri eşit dağıtmak için bir mihenk taşıdır ve yoksullara ekonomik büyümeden daha fazla yararlanma fırsatı sağlar.Bu nedenle eğitim politikaları, örgün ve yaygın eğitime katılımı artırmaya çalışırken, yoksullukla mücadelede önemli bir rol üstlenmeyi hedeflemeli (@bilenkisi2015impact)
-Sonuç olarak, yoksulluk ve eğitim birbiriyle ters orantılıdır.
+
+  Sonuç olarak, yoksulluk ve eğitim birbiriyle ters orantılıdır.
 Aynı zamanda eğitimden yoksulluğa doğru ters nedensellik olabileceği gibi, yoksulluktan eğitime doğru da eşit derecede nedensellik olabilir. Örneğin, eğitime yapılan yatırım, insanların üretkenliğinin yanı sıra ücretleri veya geliri artırarak yoksulluğu azaltır. Ayrıca eğitim, insanların daha etkin üretim yapma kapasitelerini geliştiren bazı gerekli becerileri edinmelerini sağlar. Öte yandan yoksulluk, öğrencilere sağlanan kaynakları etkileyerek eğitimin kalitesinive eğitime eşit erişimi kısıtlamaktadır[@citak2020causal]
-Yoksulluk nedeniyle bireylerin yetersiz eğitim alması bir yandan yoksulluğu devam ettirici bir etki yaratırken; bir diğer yandan bu bireylerin topluma katkılarının da düşük düzeyde kalmasına neden olarak ülkenin kalkınmasını olumsuz yönde etkilemektedir. Bu nedenle yoksullukla mücadelede eğitim konusu sosyal politika alanında ve ekonomik kalkınmada önemli bir unsuru teşkil etmektedir[@ocalguncel]
+
+  Yoksulluk nedeniyle bireylerin yetersiz eğitim alması bir yandan yoksulluğu devam ettirici bir etki yaratırken; bir diğer yandan bu bireylerin topluma katkılarının da düşük düzeyde kalmasına neden olarak ülkenin kalkınmasını olumsuz yönde etkilemektedir. Bu nedenle yoksullukla mücadelede eğitim konusu sosyal politika alanında ve ekonomik kalkınmada önemli bir unsuru teşkil etmektedir[@ocalguncel]
 
 
 \newpage
